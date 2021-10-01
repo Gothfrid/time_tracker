@@ -20,7 +20,8 @@ const useStyles = makeStyles((theme: Theme) =>
     container: {
       height: 64,
       width: '100%',
-      background: 'pink',
+      boxShadow: '0 4px 8px 0 rgb(0 0 0 / 20%)',
+
       display: 'flex',
       justifyContent: 'space-around',
       alignItems: 'center',
